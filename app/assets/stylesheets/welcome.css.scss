@@ -1,0 +1,130 @@
+/* MAIN */
+
+body 
+{
+ background-image:url(rolo_papel.jpg);
+ background-size:auto auto;
+ background-color:white;
+ background-repeat:repeat-x;
+ overflow-x: auto; 
+ overflow-y: hidden;
+ font-family:"Gill Sans MT", Arial, Helvetica, sans-serif;
+ font-size:100%;
+ margin:0px;
+ padding:0px;
+}
+
+/* LINKS */
+
+a 
+{
+ white-space: nowrap;
+}
+a:link 
+{
+ font-weight: bold;
+ text-decoration: none;
+ border: 1px solid #f2f4ee;
+ color: #776;
+ padding: 0 1px;
+}
+	
+a:visited 
+{
+ font-weight: bold;
+ text-decoration: none;
+ color: #998;
+}
+	
+a:hover
+{
+ opacity:0.7;
+ filter:alpha(opacity=70);		
+}
+	
+a:active 
+{
+ font-weight: bold;
+ text-decoration: none;
+}
+
+/* HORIZONTAL SCROLLING */
+
+#container
+{
+ width:5500px;
+ height:100%;
+ position:absolute;
+ top:7.8%;
+}
+
+#day
+{
+ border:0;
+ margin:0;
+ padding:0;
+}
+
+#day li
+{
+ line-style:none;
+ width:800px;
+ height:550px;
+ padding:0px;
+ float:right;
+}
+
+/* IMAGENS */
+
+#rolo
+{
+ position:fixed;
+ top:0px;
+ right:0px;
+}
+
+#arrowright
+{
+ position:fixed;
+ top:10%;
+ right:10%;
+}
+#arrowleft
+{
+ position:fixed;
+ bottom:10%;
+ right:10%;
+}
+
+/* TABELA ABOUT */
+
+#about
+{
+ width:800px;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:95px;
+ font-size:1.0em;
+}
+#about th
+{
+ width:350px;
+ font-size:2.4em;
+ text-align:left;
+ height:15px;
+}
+#about tr
+{
+ width:800x;
+ font-size:1.0em;
+ text-align:left;
+ height:15px;
+}
+#about td
+{
+ width:350px;
+ font-size:1.0em;
+ text-align:left;
+ height:15px;
+ text-align:justify;
+}
