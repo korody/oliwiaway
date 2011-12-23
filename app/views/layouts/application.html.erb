@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
+
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
     <title><%= title %></title>
+
     <%= csrf_meta_tag %>
+
+    <%= javascript_include_tag "scrolling.js", "auto_scroll.js", "floating.js" %>
+
     <%= render 'layouts/stylesheets' %>
   </head>
 <body>
