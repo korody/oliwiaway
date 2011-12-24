@@ -1,6 +1,7 @@
 .container {
-  width: 5000px;
-}
+  width: 8000px;
+  height:530px;
+  }
 
 div
 {
@@ -13,108 +14,84 @@ body {
   background-color:white;
   background-repeat:repeat-x;
   overflow-x: auto; 
-  overflow-y: auto;
-  margin:0px;
-  padding:0px;
+  overflow-y: hidden;
+  margin-top:50px;
+  margin-bottom:auto;
+}
+
+/* TABELA ROLO */
+
+#rolo
+{
+ position:fixed;
+ top:0px;
+ right:0px;
 }
 
 /* TABELA ABOUT */
 
-#table
+table.about
 {
+ float:left;
  border: 0px solid black;
- margin-top:50px;
- margin-left:2%;
- padding:5px;
+ margin-left:1%;
+ margin-right:135px;
  width:1024px;
+ height:530px;
  font-size:1.3em;
 }
 table th
 {
  width:350px;
  font-size:2.4em;
+ text-align:center;
  vertical-align:bottom;
- text-align:left;
 }
 table tr
 {
  width:1024px;
- font-size:1.05em;
  text-align:left;
- height:100px;
 }
 table td
 {
  width:350px;
  text-align:justify;
+ vertical-align:bottom;
 }
 
 /* Posts */
 
-#horizontal
-{
-position:absolute;
-float:left;
-width:1024px;
-height:100%;
-
-}
-
-#posts li{
-list-style-type:none;
-display:inline;
-width:1024px;
+.posts {
+display:inline-block;
+width:830px;
 height:550px;
 }
 
-/* Classes */
+/* Elements */
 
-.rolo {
-  height:100%;
-  position: fixed;
-  top: 0px;
-  right: 0px
-}
-
-.oliwia {
+#oliwia {
  position:absolute;
- padding-left:6%;
- padding-top:4%;
-}
-
-.baloon {
- position:absolute;
- padding-left:6%;
+ padding-left:12%;
  padding-top:4%;
 }
 
 #baloon {
- position:absolute;
- padding-left:6%;
+ position:fixed;
+ padding-left:12%;
  padding-top:4%;
 }
 
-.round {
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
+#arrowleft {
+ position:fixed;
+ right:3%;
+ top:4%;
+ width:50px;
+ height:50px;
 }
-
-
-
-/* BUTTON 
-
-a.signup_button {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-  width: 190px;
-  color: #fff;
-  background: #006400;
-  font-size: 150%;
-  font-weight: bold;
-  padding: 20px;
+#arrowright {
+ position:fixed;
+ right:3%;
+ bottom:4%;
+ width:50px;
+ height:50px;
 }
-
-*/

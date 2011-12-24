@@ -1,6 +1,6 @@
 $(function() {
 
-   $("body").mousewheel(function(event, delta) {
+   $(".container").mousewheel(function(event, delta) {
 
       this.scrollLeft -= (delta * 30);
 

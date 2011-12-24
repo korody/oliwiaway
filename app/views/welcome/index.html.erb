@@ -1,18 +1,18 @@
 <body> 
 
-<div>
-<% image_tag "rolo.png", :alt => "rolo papel manteiga", :class => "rolo" %>
-</div>
+<div id="rolo">
+<table>
+<%= image_tag "rolo.png" %>
+</table></div>
 
-<div id "horizontal">
-<ul id="posts">
-<li>
+<div>
 <table
-id="table">
+class="about">
 <a name="about">
 <tr>
-<%= image_tag "oliwia2.png", :alt => "oliwia", :class => "oliwia" %>
-<%= image_tag "baloon.png", :alt => "oliwia", :class => "baloon" %>
+<%= image_tag "oliwia3.png", :alt => "oliwia", :id => "oliwia" %>
+<%= image_tag "baloon.png", :alt => "oliwia", :id => "baloon" %>
+</tr>
 <th rowspan="4">
 oliwia way project
 </th>
@@ -26,68 +26,46 @@ with a black velvet hair, Oliwia is a shy and charming girl who learned how to e
 the artist
 </tr></td>
 <tr><td>
-Kalina Juzwiak is an architect and artist inspired by the universe that surrounds her. since a child she finds in art a way to turn off from influences from the past and future. art represents to her a moment of concentration with herself in the present. this is the way she found to draw onto paper her state of heart and mind. 
+Kalina Juzwiak is an architect and artist inspired by the universe that surrounds her. since a child she finds in art a way to turn off from influences from the past and future. art represents to her a moment of concentration with herself in the present. this is the way she found to draw onto paper her state of heart and mind.
 </td></tr>
-</table></li>
+</table></div>
 
-<!--
+<div>
+<%= link_to "#", :id => "prev", do %>  <!-- :onclick "return false"  ?? !-->
+    <%= image_tag "arrowleft.png", :alt => "left arrow", :id => "arrowleft" %>
+<% end %>
 
-<li>
-<a name="day5" id="day5">
-<img src="http://www.jwdegroot.nl/wp-content/uploads/pattern-on-triangles-and-hexagons.gif">
-</li>
-
-<li>
-<a name="day4" id="day4">
-<img src="http://www.jwdegroot.nl/wp-content/uploads/pattern-on-triangles-and-hexagons.gif">
-</li>
-
-<li>
-<a name="day3" id="day3">
-<img src="http://www.jwdegroot.nl/wp-content/uploads/pattern-on-triangles-and-hexagons.gif">
-</li>
-
-<li>
-<a name="day2" id="day2">
-<img src="http://www.jwdegroot.nl/wp-content/uploads/pattern-on-triangles-and-hexagons.gif">
-</li>
-
-<li>
-<a name="day1" id="day1">
-<img src="http://www.jwdegroot.nl/wp-content/uploads/pattern-on-triangles-and-hexagons.gif">
-</li>
-
-!-->
-
-</ul>
+<%= link_to "#", :id => "next", do %>
+    <%= image_tag "arrowright.png", :alt => "right arrow", :id => "arrowright" %>
+<% end %>
 </div>
 
-
 <!--
-<a.arrowleft 
- href="#about">
-<img 
- id="arrowleft"
- src="http://www.publicworksgroup.net/img/icon_arrow_left_50px.png" 
- border="0"
- height="50px"
- width="50px"
- alt="previous" 
-/>
-</a>
 
-<a.arrowright 
-href="#day5">
-<img
- id="arrowright" 
- src="http://www.publicworksgroup.net/img/icon_arrow_right_50px.png" 
- border="0"
- height="50px"
- width="50px"
- alt="next" 
-/>
-</a>
+<%= link_to "#about", :id => "about", do %>
+    <%= image_tag "arrowleft.png", :alt => "about", :id => "about" %>
+<% end %>
 
 !-->
+
+<div class="posts">	
+ <%= image_tag "day1.png", :alt => "day 1" %>
+</div>
+
+<div class="posts">
+  <%= image_tag "day1.png", :alt => "day 2" %>
+</div>
+
+<div class="posts">
+  <%= image_tag "day1.png", :alt => "day 3" %>
+</div>
+
+<div class="posts"> 
+  <%= image_tag "day1.png", :alt => "day 4" %>
+</div>
+
+<div class="posts">
+  <%= image_tag "day1.png", :alt => "day 5" %>
+</div>
 
 </body>
