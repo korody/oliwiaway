@@ -3,8 +3,7 @@
   height:530px;
   }
 
-div
-{
+div {
 cursor:e-resize;
 }
 
@@ -21,8 +20,7 @@ body {
 
 /* TABELA ROLO */
 
-#rolo
-{
+#rolo {
  position:fixed;
  top:0px;
  right:0px;
@@ -30,8 +28,7 @@ body {
 
 /* TABELA ABOUT */
 
-table.about
-{
+table.about {
  float:left;
  border: 0px solid black;
  margin-left:1%;
@@ -40,20 +37,17 @@ table.about
  height:530px;
  font-size:1.3em;
 }
-table th
-{
+table th {
  width:350px;
  font-size:2.4em;
  text-align:center;
  vertical-align:bottom;
 }
-table tr
-{
+table tr {
  width:1024px;
  text-align:left;
 }
-table td
-{
+table td{
  width:350px;
  text-align:justify;
  vertical-align:bottom;
@@ -61,10 +55,12 @@ table td
 
 /* Posts */
 
-.posts {
+#posts {
 display:inline-block;
 width:830px;
 height:550px;
+font-size:5em;
+text-align:right;
 }
 
 /* Elements */
@@ -94,4 +90,13 @@ height:550px;
  bottom:4%;
  width:50px;
  height:50px;
+}
+
+#fb {
+ float:right;
+ position:fixed;
+ right:0%;
+ top:40%;
+ width:28px;
+ height:125px;
 }
