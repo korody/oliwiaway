@@ -1,102 +1,60 @@
 .container {
   width: 8000px;
-  height:530px;
+  height:800px;
+  } 
+  div {
+    cursor:e-resize;
+    }
+  body {
+    background-image:url(rolo_papel_tela.png);
+    background-color:white;
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position:center;  
+    overflow-y:hidden;
+    display:block;
+    }
+ 
+/* SLIDER */
+
+.slider {
+  float:left;
+  display:inline-block;
+  width: 800px;
+  height:600px;
+  margin-top:31px;
+  margin-left:200px;
+  margin-right:200px;
+  border: 0px solid black;
+  z-index:-1;
+  }
+.slider p {
+  display:inline-block;
+  font-size:1.25em;
+  text-align:left;
+  text-align:justify;
+  padding-top:18px;
+  padding-left:50px;
+  padding-right:20px;
+  width:350px;
   }
 
-div {
-cursor:e-resize;
-}
-
-body {
-  background-image:url(rolo_papel_tela.jpg);
-  background-size:auto auto;
-  background-color:white;
-  background-repeat:repeat-x;
-  overflow-x: auto; 
-  overflow-y: hidden;
-  margin-top:50px;
-  margin-bottom:auto;
-}
-
-/* TABELA ROLO */
+.heading {
+  float:left;
+  display:block;
+  width: 350px;
+  padding:10px;
+  vertical-align:bottom;
+  }
+.heading p {
+  font-size:2.0em;
+  padding-top:18px;
+  padding-left:50px;
+  }
 
 #rolo {
- position:fixed;
- top:0px;
- right:0px;
-}
-
-/* TABELA ABOUT */
-
-table.about {
- float:left;
- border: 0px solid black;
- margin-left:1%;
- margin-right:135px;
- width:1024px;
- height:530px;
- font-size:1.3em;
-}
-table th {
- width:350px;
- font-size:2.4em;
- text-align:center;
- vertical-align:bottom;
-}
-table tr {
- width:1024px;
- text-align:left;
-}
-table td{
- width:350px;
- text-align:justify;
- vertical-align:bottom;
-}
-
-/* Posts */
-
-.posts {
-display:inline-block;
-width:830px;
-height:550px;
-}
-
-/* Elements */
-
-#oliwia {
- position:absolute;
- padding-left:12%;
- padding-top:4%;
-}
-
-#baloon {
- position:fixed;
- padding-left:12%;
- padding-top:4%;
-}
-
-#arrowright {
- position:absolute;
- right:13%;
- top:52%;
- width:120px;
- height:80px;
-}
-
-/*
-#arrowleft {
- position:fixed;
- right:3%;
- top:4%;
- width:50px;
- height:50px;
-}
-
-*/
-
-#fb {
- float:right;
- position:fixed;
- right:-25.4%%;
- top:45%;
-}
+    float:right;
+    position:fixed;
+    top:11px;
+    right:0px;x
+    }
