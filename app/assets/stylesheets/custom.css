@@ -6,55 +6,121 @@
     cursor:e-resize;
     }
   body {
-    background-image:url(rolo_papel_tela.png);
     background-color:white;
     background-repeat:repeat-x;
     background-attachment:fixed;
     background-position:center;  
     overflow-y:hidden;
+    overflow-x:hidden;
     display:block;
     }
- 
-/* SLIDER */
 
-.slider {
-  float:left;
-  display:inline-block;
-  width: 800px;
-  height:600px;
-  margin-top:31px;
-  margin-left:200px;
-  margin-right:200px;
-  border: 0px solid black;
+   /* BACKGROUND */ 
+
+.intro {
+  background-color:honeydew;
+  position:fixed;
+  width:800px;
+  height:490px;
+  margin:13%;
+  margin-left:15%;   
   z-index:-1;
+  border: 1px dashed deepskyblue;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
   }
-.slider p {
+.intro p {
+  float:right;
   display:inline-block;
   font-size:1.25em;
   text-align:left;
   text-align:justify;
-  padding-top:18px;
-  padding-left:50px;
-  padding-right:20px;
+  padding:20px;
   width:350px;
+  border: 0px dashed darkslategrey;
   }
-
 .heading {
+  position:absolute;
   float:left;
   display:block;
   width: 350px;
-  padding:10px;
-  vertical-align:bottom;
+  margin:30px;
+  margin-left:50px;
   }
 .heading p {
-  font-size:2.0em;
-  padding-top:18px;
-  padding-left:50px;
+  font-size:3.2em;
+  padding-top:25px;
+
+  }
+
+/* SCROLLABLE */
+
+.scrollable {
+  float:left;
+  display:inline-block;
+  width:1500px;
+  height:600px;
+  margin-top:32px;
+  }
+.scrollable .items {
+  float:left;
+  position:absolute;
+  display:inline-block;
+  width:20000em;
+  height:600px;
+  margin-left:1250px;
+  z-index:-1;
+  }
+.items div {
+  float:left;
+  width:800px;
+  height:600px;
+  border:0px solid blue;
+  background-image:url(rolo_papel_tela.png);
+  }
+
+.next {
+  width:50px;
+  height:50px;
+  position:fixed;
+  top:290px;
+  right:25px;
+  }
+.prev {
+  width:50px;
+  height:50px;
+  position:fixed;
+  top:290px;
+  right:55px;
   }
 
 #rolo {
     float:right;
     position:fixed;
     top:11px;
-    right:0px;x
+    right:0px;
+    }
+
+#balloon {
+    float:left;
+    position:absolute;
+    left:0%;
+    }
+
+    #fb {
+    position:fixed;
+    bottom:25%;
+    left:0%;
+    height:50px;
+    width:50px;
+    z-index:0;
+    }    
+
+    #fbapp {
+    position:fixed;
+    bottom:15%;
+    left:0%;
+    z-index:0;
     }

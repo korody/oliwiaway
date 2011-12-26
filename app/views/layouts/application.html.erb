@@ -4,9 +4,21 @@
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.6/jquery.tools.min.js"></script>
     <title><%= title %></title> 
     <%= csrf_meta_tag %>
-    <%= render 'layouts/stylesheets' %>
+    <%= javascript_include_tag "scroller", "balloon", "wheel" %>
+    <%= render "layouts/stylesheets" %>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=282523151767333";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   </head>
 
 <body>

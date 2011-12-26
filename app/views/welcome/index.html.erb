@@ -2,33 +2,61 @@
 	<%= image_tag "rolo.png", :alt => "rolo papel manteiga" %>
 </div>
 
-<div class="slider">
-	<div class="heading">
-		<%= image_tag "oliwia.png", :alt => "oliwia", :class => "heading" %>
-		<p>oliwia way project</p>
-	</div>
-	<div>
-		<p>oliwia way</p>
-		<p>
-			with a black velvet hair, Oliwia is a shy and charming girl who learned how to enjoy life intensively. she was born healthier than any child around her, but was soon left alone. no family and friend understood her excessive love. love for smiling, love for dancing, running, creating and inspiring. instead of one heart she was born with two and carried them in her hands. When she was just a little girl she found herself in a unique world, where life became a universe of dreams and fantasies. welcome to the world where she found her way to be happy.
-		</p>	
-		<p>the artist</p>
-		<p>
-			Kalina Juzwiak is an architect and artist inspired by the universe that surrounds her. since a child she finds in art a way to turn off from influences from the past and future. art represents to her a moment of concentration with herself in the present. this is the way she found to draw onto paper her state of heart and mind.
-		</p>
-	</div>
-</div>	
+<div class="intro">
+  <div class="heading">
+    <%= image_tag "oliwia3.png", :alt => "oliwia" %>
+    <%= image_tag "balloon.png", :alt => "oliwia", :id => "balloon" %>
+    <p><strong>oliwia way project</strong></p>
+  </div>
+  <div>
+    <p><strong>oliwia</strong>
+      with a black velvet hair, Oliwia is a shy and charming girl who learned how to enjoy life intensively. she was born healthier than any child around her, but was soon left alone. no family and friend understood her excessive love. love for smiling, love for dancing, running, creating and inspiring. instead of one heart she was born with two and carried them in her hands. When she was just a little girl she found herself in a unique world, where life became a universe of dreams and fantasies. welcome to the world where she found her way to be happy.
+    <br><br><strong>her mentor</strong>
+      Kalina Juzwiak is an architect and artist inspired by the universe that surrounds her. since a child she finds in art a way to turn off from influences from the past and future. art represents to her a moment of concentration with herself in the present. this is the way she found to draw onto paper her state of heart and mind.
+    </p>
+  </div>
+</div>  
 
-<div class="slider"> 
-	<%= image_tag "day1.png", :alt => "day 1" %>
+<!-- JQUERY SCROLLABLE !-->
+
+<a class="prev">
+<%= image_tag "arrowleft2.png", :alt => "day 1" %></a>
+
+<div class="scrollable">   
+	<div class="items">
+		<div>
+      <%= image_tag "day1.1.png", :alt => "day 1" %>
+      </div>
+      
+      <div>
+        	
+      </div>
+
+      <div>
+        
+      </div>
+
+      <div>
+        
+      </div>
+
+      <div>
+        	
+      </div>
+
+      <div>
+        <h3>to be continued...</h3>
+      </div>
+    </div>
+	</div>
 </div>
 
-<div class="slider">
-  	<%= image_tag "day1.png", :alt => "day 2" %>
-</div>
+<a class="next">
+<%= image_tag "arrowright2.png", :alt => "day 1" %></a>
 
-<div class="slider">
-  	<p>to be continued...</p>
-	</div>
-</div>
-		
+<%= link_to "http://www.facebook.com/kaju.ink", :target => "_blank", do %>
+<%= image_tag "fb.png", :alt => "kaju ink", :id => "fb" %>
+<% end %>
+
+<div id= "fbapp">
+<div class="fb-like" data-href="http://www.facebook.com/kaju.ink" data-send="false" data-layout="box_count" data-width="200" data-show-faces="true" data-font="lucida grande"></div></div>
