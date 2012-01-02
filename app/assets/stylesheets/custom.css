@@ -1,5 +1,5 @@
 .container {
-  width: 8000px;
+  width:8000px;
   height:800px;
   } 
   div {
@@ -11,25 +11,26 @@
     background-attachment:fixed;
     background-position:center;  
     overflow-y:hidden;
-    overflow-x:hidden;
+    overflow-x:auto
+  ;
     display:block;
     }
 
    /* BACKGROUND */ 
 
 .intro {
-  background-color:honeydew;
+  background-color:white;
   position:fixed;
   width:800px;
   height:490px;
   margin:13%;
   margin-left:15%;   
   z-index:-1;
-  border: 1px dashed deepskyblue;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border: 0px dashed deepskyblue;
+  -webkit-border-radius:0px;
+  -moz-border-radius:0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
   }
 .intro p {
   float:right;
@@ -70,7 +71,7 @@
   display:inline-block;
   width:20000em;
   height:600px;
-  margin-left:1250px;
+  margin-left:1150px;
   z-index:-1;
   }
 .items div {
@@ -78,7 +79,14 @@
   width:800px;
   height:600px;
   border:0px solid blue;
-  background-image:url(rolo_papel_tela.png);
+  background-image:url(rolo_papel_tela2.png);
+  }
+
+.items p {
+  margin-left:40px;
+  margin-top:550px;
+  font-size:3.0em;
+  position:relative;
   }
 
 .next {
@@ -106,12 +114,13 @@
 #balloon {
     float:left;
     position:absolute;
+    top:0%;
     left:0%;
     }
 
     #fb {
     position:fixed;
-    bottom:25%;
+    top:40%;
     left:0%;
     height:50px;
     width:50px;
@@ -120,7 +129,7 @@
 
     #fbapp {
     position:fixed;
-    bottom:15%;
+    top:50%;
     left:0%;
     z-index:0;
     }

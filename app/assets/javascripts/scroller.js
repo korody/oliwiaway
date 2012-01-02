@@ -1,6 +1,6 @@
 $(function() {
 
 	// initialize scrollable
-	$(".scrollable").scrollable();
+	$("div.scrollable").scrollable({circular: false, mousewheel: true })
 
 });

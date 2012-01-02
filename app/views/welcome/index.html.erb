@@ -4,7 +4,7 @@
 
 <div class="intro">
   <div class="heading">
-    <%= image_tag "oliwia3.png", :alt => "oliwia" %>
+    <%= image_tag "oliwia4.png", :alt => "oliwia" %>
     <%= image_tag "balloon.png", :alt => "oliwia", :id => "balloon" %>
     <p><strong>oliwia way project</strong></p>
   </div>
@@ -20,43 +20,39 @@
 <!-- JQUERY SCROLLABLE !-->
 
 <a class="prev">
-<%= image_tag "arrowleft2.png", :alt => "day 1" %></a>
+  <%= image_tag "arrowleft2.png", :alt => "left" %></a>
+
+<a class="next">
+  <%= image_tag "arrowright2.png", :alt => "right" %></a>
 
 <div class="scrollable">   
 	<div class="items">
 		<div>
-      <%= image_tag "day1.1.png", :alt => "day 1" %>
-      </div>
       
-      <div>
-        	
-      </div>
-
-      <div>
-        
-      </div>
-
-      <div>
-        
-      </div>
-
-      <div>
-        	
-      </div>
-
-      <div>
-        <h3>to be continued...</h3>
-      </div>
     </div>
+      
+    <div>
+   	  <%= image_tag "day1.1.png", :alt => "day 1" %>   
+    </div>
+
+    <div>
+      <p>...</p> 
+    </div>
+
+    <div id="newItem" style="display:none">
+      <div class="added">
+    <img src="http://farm1.static.flickr.com/153/399232237_6928a527c1_t.jpg" />
+    <img src="http://farm4.static.flickr.com/3089/2796719087_c3ee89a730_t.jpg" />
+    <h3>New Item</h3>
+  </div>
+</div>
+
 	</div>
 </div>
 
-<a class="next">
-<%= image_tag "arrowright2.png", :alt => "day 1" %></a>
-
-<%= link_to "http://www.facebook.com/kaju.ink", :target => "_blank", do %>
-<%= image_tag "fb.png", :alt => "kaju ink", :id => "fb" %>
+  <%= link_to "http://www.facebook.com/kaju.ink", :target => "_blank", do %>
+  <%= image_tag "fb.png", :alt => "kaju ink", :id => "fb" %>
 <% end %>
 
 <div id= "fbapp">
-<div class="fb-like" data-href="http://www.facebook.com/kaju.ink" data-send="false" data-layout="box_count" data-width="200" data-show-faces="true" data-font="lucida grande"></div></div>
+  <div class="fb-like" data-href="http://www.facebook.com/kaju.ink" data-send="false" data-layout="box_count" data-width="200" data-show-faces="true" data-font="lucida grande"></div></div>
