@@ -11,8 +11,7 @@
     background-attachment:fixed;
     background-position:center;  
     overflow-y:hidden;
-    overflow-x:auto
-  ;
+    overflow-x:hidden;
     display:block;
     }
 
@@ -52,7 +51,7 @@
   }
 .heading p {
   font-size:3.2em;
-  padding-top:25px;
+  padding-top:45px;
 
   }
 
@@ -79,7 +78,7 @@
   width:800px;
   height:600px;
   border:0px solid blue;
-  background-image:url(rolo_papel_tela2.png);
+  background-image:url(rolo_papel_tela.png);
   }
 
 .items p {
@@ -120,7 +119,7 @@
 
     #fb {
     position:fixed;
-    top:40%;
+    top:42%;
     left:0%;
     height:50px;
     width:50px;
