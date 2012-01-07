@@ -34,7 +34,7 @@
 .intro p {
   float:right;
   display:inline-block;
-  font-size:1.25em;
+  font-size:1.2em;
   text-align:left;
   text-align:justify;
   padding:20px;
@@ -46,15 +46,16 @@
   float:left;
   display:block;
   width: 350px;
-  margin:30px;
+  margin:50px;
   margin-left:50px;
   }
 .heading p {
   font-size:3.2em;
-  padding-top:45px;
+  padding-top:25px;
 
   }
 
+ 
 /* SCROLLABLE */
 
 .scrollable {
@@ -88,19 +89,27 @@
   position:relative;
   }
 
-.next {
-  width:50px;
-  height:50px;
+   /* BUTTONS */
+
+.home {
+  width:20px;
   position:fixed;
-  top:290px;
-  right:25px;
-  }
-.prev {
-  width:50px;
-  height:50px;
-  position:fixed;
-  top:290px;
+  bottom:50px;
   right:55px;
+  } 
+
+.next {
+  width:20px;
+  position:fixed;
+  top:290px;
+  right:30px;
+  }
+
+.prev {
+  width:20px;
+  position:fixed;
+  top:290px;
+  right:80px;
   }
 
 #rolo {
