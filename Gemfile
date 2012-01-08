@@ -11,6 +11,7 @@ group :production do
 end
 group :development, :test do
   gem 'sqlite3'
+  gem 'capistrano'
 end
 
 # Gems used only for assets and not required
@@ -28,9 +29,6 @@ gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
