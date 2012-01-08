@@ -1,1 +1,0 @@
-$(function(){$(".scrollable").scrollable({circular:!1,mousewheel:!0}).navigator()})
