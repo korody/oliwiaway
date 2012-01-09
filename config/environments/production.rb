@@ -15,7 +15,7 @@ Oliwiaway::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = true
+  config.assets.precompile += %w( *.css *.js *.png )
 
   #config.assets.precompile = [/^[a-zA-Z]*\..*/]
 

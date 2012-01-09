@@ -1,4 +1,4 @@
 $(function() {
 
-$(".scrollable").scrollable({circular: false, mousewheel: false}).navigator()
+$(".scrollable").scrollable({circular: false, mousewheel: true}).navigator()
 });	
