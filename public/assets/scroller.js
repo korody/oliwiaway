@@ -1,1 +1,0 @@
-$(function(){$(".scrollable").scrollable().navigator()})

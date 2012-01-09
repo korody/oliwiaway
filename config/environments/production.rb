@@ -16,7 +16,6 @@ Oliwiaway::Application.configure do
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.precompile += %w( *.css *.js *.png )
-
   #config.assets.precompile = [/^[a-zA-Z]*\..*/]
 
   # Generate digests for assets URLs
