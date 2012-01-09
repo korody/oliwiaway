@@ -42,6 +42,6 @@ end
 
 gem "thin"
 
-#gem "execjs"
+gem "execjs"
 
 gem "heroku"
