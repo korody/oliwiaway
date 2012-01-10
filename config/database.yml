@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: oliwiaway_development
+  username: .\postgres
+  password: kiwi123
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: oliwiaway_production
+  username: .\postgres
+  password: kiwi123
+  host: localhost
+  port: 5432
