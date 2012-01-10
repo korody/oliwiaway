@@ -13,8 +13,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-	gem 'pg'
-
+	gem "sqlite3"
+	
 	gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
@@ -33,11 +33,5 @@ group :test do
 # Pretty printed test output
 	gem 'turn', :require => false
 end
-
-	gem "thin"
-
-	gem "execjs", "~> 1.2.13"
-
-	gem "foreman"
 
 	gem "heroku"
