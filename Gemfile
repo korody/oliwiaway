@@ -13,7 +13,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-	gem "sqlite3"
+	gem 'sqlite3', '1.3.3'
 	
 	gem 'jquery-rails'
 
