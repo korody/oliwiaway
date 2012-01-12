@@ -2,9 +2,6 @@
   width:8000px;
   height:800px;
   } 
-  div {
-    cursor:e-resize;
-    }
   body {
     background-color:white;
     background-repeat:repeat-x;
@@ -20,12 +17,12 @@
 .intro {
   background-color:white;
   position:fixed;
-  width:800px;
-  height:490px;
-  margin:13%;
-  margin-left:15%;   
+  right:320px;
+  width:850px;
+  height:600px;
+  margin:32px;  
   z-index:-1;
-  border: 0px dashed deepskyblue;
+  border:0px dashed #606060;
   -webkit-border-radius:0px;
   -moz-border-radius:0px;
   -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
@@ -33,32 +30,38 @@
   }
 .intro p {
   float:right;
-  display:inline-block;
-  font-size:1.2em;
+  width:400px;
   text-align:left;
   text-align:justify;
-  padding:20px;
-  width:350px;
-  border: 0px dashed darkslategrey;
+  padding-top:30px;
+  padding-right:15px;
+  padding-left:15px;
+  border:0px dashed #606060;
   }
-.heading {
+.intro h1 {
   position:absolute;
-  float:left;
-  display:block;
-  width: 350px;
-  margin:50px;
-  margin-left:50px;
+  right:0px;
+  bottom:0px;
+  float:right;
+  padding-right:15px;
+  padding-left:15px;
+  padding-bottom:30px;
+  margin-bottom:242px;
+  width:400px;
+  border:0px dashed #606060;
   }
-.heading p {
-  font-size:3.2em;
-  padding-top:25px;
-
+.oliwia {
+  width:252px;
+  height:350px;
+  margin-top:210px;
+  margin-left:40px;
+  border:0px dashed #606060;
   }
 
- 
 /* SCROLLABLE */
 
 .scrollable {
+  cursor:e-resize;
   float:left;
   display:inline-block;
   width:1500px;
@@ -119,13 +122,10 @@
     right:0px;
     }
 
-#oliwia {
-    width:252px;
-    height:350px;
-    }
-
 #balloon {
     float:left;
+    margin-top:210px;
+    margin-left:40px;
     position:absolute;
     top:0%;
     left:0%;
@@ -133,7 +133,7 @@
 
     #fb {
     position:fixed;
-    top:42%;
+    top:545px;
     left:0%;
     height:50px;
     width:50px;
@@ -142,7 +142,14 @@
 
     #fbapp {
     position:fixed;
-    top:50%;
+    top:475px;
     left:0%;
     z-index:0;
+    }
+
+    #by {
+    position:fixed;
+    bottom:3px;
+    right:0%;
+    margin-right:10px;
     }

@@ -3,17 +3,18 @@
 </div>
 
 <div class="intro">
-  <div class="heading">
-    <%= image_tag "oliwia.png", :alt => "oliwia", :id => "oliwia" %>
-    <%= image_tag "balloon.png", :alt => "oliwia", :id => "balloon" %>
-    <p><strong>oliwia way project</strong></p>
-  </div>
   <div>
     <p><strong>oliwia</strong>
       behind her black velvet hair, Oliwia is a shy and charming girl who learned how to enjoy life intensively. she was born healthier than any other child around her, but was soon left alone. no family or friends understood her excessive love. love for smiling, dancing, running, creating and inspiring others around her. instead of one heart, she was born with two and carried them in her hands. when she was just a little girl she found herself in a unique position, where life could be filled of dreams and fantasies. welcome to the world where she found her path to happiness.
-    <br><br><strong>her mentor</strong>
-      Kalina Juzwiak is the founder of kaju ink, an illustration company that develops art with many techniques applied to different surfaces. Kalina is an architect and artist inspired by the universe that surrounds her. since her childhood, she finds in the artistic creation a way to merge her influences from her ancestors and her future perspectives. art represents to her a moment of exclusivity with herself in the present. this is the way she communicates her state of heart and mind to the rest of the world.
     </p>
+      <h1><strong>oliwia way project</strong></h1>
+    <p><br><br><strong>her mentor</strong>
+      Kalina Juzwiak is the founder of kaju ink, an illustration company that offers an inspiring form of art. It relies on various painting techniques that are applied to virtually any kind of surfaces. Kalina is an architect and artist inspired by the universe that surrounds her. since her childhood, she finds in the artistic creation a way to merge the influences from her ancestors with her future perspectives. art represents to her a moment of exclusivity with herself in the present. this is the way she communicates her state of heart and mind to the world.
+    </p>
+  </div>
+  <div class="oliwia">
+    <%= image_tag "oliwia.png", :alt => "oliwia" %>
+    <%= image_tag "balloon.png", :alt => "baloon", :id => "balloon" %>
   </div>
 </div>  
 
@@ -61,4 +62,12 @@
 <div id= "fbapp">
   <div class="fb-like" data-href="http://www.facebook.com/kaju.ink" data-send="false" data-layout="box_count" data-width="200" data-show-faces="true" data-font="lucida grande">
   </div>
+</div>
+
+<div id="by">
+  website by <%= link_to "http://www.facebook.com/marcos.korody", :target => "_blank", do %>mk 
+  <% end %>
+  &amp;
+  <%= link_to "http://www.facebook.com/mohamado", :target => "_blank", do %>mh
+  <% end %>
 </div>

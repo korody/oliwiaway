@@ -6,7 +6,7 @@
 html { font-size:100.01%; }
 body {
   font-size: 75%%;
-  color: darkslategrey;
+  color: #606060;
   font-family: "Helvetica Neue" "Gill Sans MT", Arial, Helvetica, sans-serif;
 }
 
@@ -14,9 +14,9 @@ body {
 /* Headings
 -------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5,h6 { font-weight: normal; color: darkslategrey; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #606060; }
 
-h1 { font-size: 20em; line-height: 1; margin-bottom: 0.5em; }
+h1 { font-size: 3.9em; }
 h2 { font-size: 2em; margin-bottom: 0.75em; }
 h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
 h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
@@ -32,7 +32,7 @@ h4 img, h5 img, h6 img {
 /* Text elements
 -------------------------------------------------------------- */
 
-p           { margin: 0 0 1.5em; }
+p           { font-size: 1.25em; margin: 0 0 1.5em; }
 /*
   These can be used to pull an image at the start of a paragraph, so
   that the text flows around it (usage: <p><img class="left">Text</p>)
@@ -42,11 +42,11 @@ p .left     { margin: 1.5em 1.5em 1.5em 0; padding: 0; }
 .right      { float: right !important; }
 p .right    { margin: 1.5em 0 1.5em 1.5em; padding: 0; }
 
-a           { color: #09c; }
+a           { color: indigo; text-decoration: none; }
 a:focus,
-a:hover     { color: #069; text-decoration: underline; opacity:0.6;}
-a:active    { color:#00FF00;}
-a:visited   { color: #069; }
+a:hover     { color: #808080; text-decoration: none; opacity:0.6;}
+a:active    { color:indigo;}
+a:visited   { color: indigo; }
 a.disabled	{ visibility:hidden} 
 
 blockquote  { margin: 1.5em; color: #666; font-style: italic; }
