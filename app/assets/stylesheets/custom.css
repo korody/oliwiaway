@@ -133,14 +133,14 @@
 
   #fblike {
     position:fixed;
-    top:522px;
+    top:548px;
     left:0%;
     z-index:0;
     }
 
     #fb {
     position:fixed;
-    top:550px;
+    top:575px;
     left:0%;
     width:80px;
     z-index:0;
@@ -148,7 +148,7 @@
 
      #ki {
     position:fixed;
-    top:575px;
+    top:522px;
     left:0%;
     width:80px;
     z-index:0;
