@@ -1,162 +1,129 @@
-.container {
-  width:10000px;
-  height:800px;
-  } 
-  body {
-    background-color:white;
-    background-repeat:repeat-x;
-    background-attachment:fixed;
-    background-position:center;  
-    overflow-y:hidden;
-    overflow-x:hidden;
-    display:block;
-    }
-
-   /* BACKGROUND */ 
-
-.intro {
+body {
   background-color:white;
-  position:fixed;
-  right:320px;
-  width:850px;
-  height:600px;
-  margin:32px;  
-  z-index:-1;
-  border:0px dashed #606060;
-  -webkit-border-radius:0px;
-  -moz-border-radius:0px;
-  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-  }
-.intro p {
-  float:right;
-  width:400px;
-  text-align:left;
-  text-align:justify;
-  padding-top:30px;
-  padding-right:15px;
-  padding-left:15px;
-  border:0px dashed #606060;
-  }
-.intro h1 {
-  position:absolute;
-  right:0px;
-  bottom:0px;
-  float:right;
-  padding-right:15px;
-  padding-left:15px;
-  padding-bottom:30px;
-  margin-bottom:242px;
-  width:400px;
-  border:0px dashed #606060;
-  }
-.oliwia {
-  width:252px;
-  height:350px;
-  margin-top:210px;
-  margin-left:40px;
-  border:0px dashed #606060;
+  overflow-x:hidden;
+  overflow-y:hidden;
   }
 
-/* SCROLLABLE */
+* {
+  margin: 0px;
+  }
+
+.wrapper {
+  background-color:transparent;
+  position:relative;
+  margin:0;
+  margin-top:1%;
+  width:100%;
+  height:642px;
+  }
+
+#social, #oliwia, #balloon, #intro, #rolo, #rolo_papel_tela {
+  position:absolute;
+  right:0;
+  bottom:25px;
+  }
+
+#oliwia {
+  right:880px;
+  bottom:55px;
+  z-index:-2;
+  }
+
+#intro {
+  right:350px;
+  text-align:justify;
+  width:400px;
+  z-index:-2;
+  }
+
+  #social {
+  left:0;
+  width:80px;
+  bottom:75px;
+  z-index:1;
+  }
+
+#rolo { 
+  float:right ;
+  position:relative;
+  bottom:0;
+  height:700px;
+  width:137px;
+  }
+
+#rolo_papel_tela {
+  height:600px;
+  bottom:21px;
+
+  }
+
+/* Scrollable controls */
+
+.controls {
+  position:absolute;
+  bottom:340px;
+  right:0;
+  width:137px;
+  height:40px;
+  }
+  
+.next {
+  position:absolute;
+  right:95px;
+  bottom:20%;
+  }
+
+  .home {
+  position:absolute;
+  visibility:hidden;
+  right:55px;
+  bottom:45%;
+  }
+
+   .prev {
+  position:absolute;
+  right:15px;
+  bottom:20%;
+  }
+
+
+/* Scrollable */
 
 .scrollable {
   cursor:e-resize;
-  float:left;
-  display:inline-block;
-  width:1500px;
+  position:relative;
+  width:800px;
   height:600px;
-  margin-top:32px;
-  }
-.scrollable .items {
-  float:left;
-  position:absolute;
-  display:inline-block;
-  width:10000em;
-  height:600px;
-  margin-left:1150px;
   z-index:-1;
   }
+
+.items {
+  width:2000em;
+  position:absolute;
+  }
+
 .items div {
   float:left;
   width:800px;
   height:600px;
-  border:0px solid blue;
-  background-image:url(rolo_papel_tela.png);
+  background: floralwhite url(rolo_papel_tela.jpg) top left no-repeat;
   }
 
 .items p {
-  margin-left:40px;
+  margin-left:350px;
   margin-top:550px;
   font-size:3.0em;
   position:relative;
   }
+  /* First slide: requires transparency; */
 
-   /* BUTTONS */
-
-.home {
-  width:20px;
-  position:fixed;
-  bottom:50px;
-  right:55px;
-  } 
-
-.next {
-  width:20px;
-  position:fixed;
-  top:290px;
-  right:30px;
+.items div.ghost {
+  background: transparent url(ghost.png) top right no-repeat !important;
+  width:800px;
   }
 
-.prev {
-  width:20px;
-  position:fixed;
-  top:290px;
-  right:80px;
+#by {
+  position:relative;
+  top:5px;
+  left:15px;
   }
-
-#rolo {
-    float:right;
-    position:fixed;
-    top:11px;
-    right:0px;
-    }
-
-#balloon {
-    float:left;
-    margin-top:210px;
-    margin-left:40px;
-    position:absolute;
-    top:0%;
-    left:0%;
-    }
-
-  #fblike {
-    position:fixed;
-    top:548px;
-    left:0%;
-    z-index:0;
-    }
-
-    #fb {
-    position:fixed;
-    top:575px;
-    left:0%;
-    width:80px;
-    z-index:0;
-    }    
-
-     #ki {
-    position:fixed;
-    top:522px;
-    left:0%;
-    width:80px;
-    z-index:0;
-    } 
-
-    #by {
-    position:fixed;
-    bottom:3px;
-    right:0%;
-    margin-right:10px;
-    }

@@ -3,7 +3,7 @@
 
 /* Default font settings.
    The font-size percentage is of 16px. (0.75 * 16px = 12px) */
-html { font-size:100.01%; }
+html { font-size:100%; }
 body {
   font-size: 75%%;
   color: #606060;
@@ -32,7 +32,7 @@ h4 img, h5 img, h6 img {
 /* Text elements
 -------------------------------------------------------------- */
 
-p           { font-size: 1.25em; margin: 0 0 1.5em; }
+p           { font-size: 1.25em; margin: 0 0 1.5em; line-height:150%; }
 /*
   These can be used to pull an image at the start of a paragraph, so
   that the text flows around it (usage: <p><img class="left">Text</p>)

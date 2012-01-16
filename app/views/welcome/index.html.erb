@@ -1,76 +1,90 @@
-<div id= "rolo">
-	<%= image_tag "rolo.png", :alt => "rolo papel manteiga" %>
-</div>
+<div class="wrapper">
 
-<div class="intro">
-  <div>
-    <p><strong>oliwia</strong>
-      behind her black velvet hair, she is a shy and charming girl who learned how to enjoy life intensively. she was born healthier than any other child around her, but was soon left alone. no family or friends understood her excessive love. love for smiling, dancing, running, creating and inspiring others around her. instead of one heart, she was born with two and carried them in her hands. when she was just a little girl she found herself in a unique situation, where life could be filled of dreams and fantasies. welcome to the world where she found her path to happiness.
-    </p>
-      <h1><strong>oliwia way project</strong></h1>
-    <p><br><br><strong>her mentor</strong>
-      Kalina Juzwiak is the founder of kaju ink, an illustration company that offers an inspiring form of art. It relies on various painting techniques that are applied to virtually any kind of surfaces. Kalina is an architect and artist inspired by the universe that surrounds her. since her childhood, she finds in the artistic creation a way to merge the influences from her ancestors with her future perspectives. art represents to her a moment of exclusivity with herself in the present. this is the way she communicates her state of heart and mind to the world.
-    </p>
+  <div id="social">
+    <%= link_to "http://www.facebook.com/kaju.ink", :target => "_blank", do %>
+    <%= image_tag "fb.png", :alt => "kaju ink", :id => "fb" %>
+    <% end %>
+
+    <div class="fb-like" data-href="http://www.facebook.com/kaju.ink" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="lucida grande">
+    </div>
+
+    <%= link_to "http://www.wix.com/kcjuzwiak/art", :target => "_blank", do %>
+    <%= image_tag "ki.png", :alt => "kaju ink", :id => "ki" %>
+    <% end %>
+
   </div>
-  <div class="oliwia">
+
+  <div id="oliwia">
     <%= image_tag "oliwia.png", :alt => "oliwia" %>
-    <%= image_tag "balloon.png", :alt => "baloon", :id => "balloon" %>
+    <%= image_tag "balloon.png", :alt => "balloon", :id => "balloon" %>
   </div>
-</div>  
+
+  <div id="intro">
+      <p>
+        <strong>oliwia</strong>
+        behind her black velvet hair, she is a shy and charming girl who learned how to enjoy life intensively. she was born healthier than any other child around her, but was soon left alone. no family or friends understood her excessive love. love for smiling, dancing, running, creating and inspiring others around her. instead of one heart, she was born with two and carried them in her hands. when she was just a little girl she found herself in a unique situation, where life could be filled of dreams and fantasies. welcome to the world where she found her path to happiness.
+      </p>
+      <p><h1>oliwia way project</h1></p>
+      <p>
+        <strong>her mentor</strong>
+        Kalina Juzwiak is the founder of kaju ink, an illustration company that offers an inspiring form of art. It relies on various painting techniques that are applied to virtually any kind of surfaces. Kalina is an architect and artist inspired by the universe that surrounds her. since her childhood, she finds in the artistic creation a way to merge the influences from her ancestors with her future perspectives. art represents to her a moment of exclusivity with herself in the present. this is the way she communicates her state of heart and mind to the world.
+      </p>
+  </div>
+
+  <div id="rolo_papel_tela">
+    <div class="scrollable">   
+      <div class="items">
+    
+        <div class="ghost">
+          <%= image_tag "ghost.png", :alt => "welcome" %> 
+        </div>
+
+        <div>
+          <%= image_tag "day0.png", :alt => "day 0" %> 
+        </div>
+          
+        <div>
+          <%= image_tag "day1.png", :alt => "day 1" %>   
+        </div>
+
+        <div>
+          <%= image_tag "day2.png", :alt => "day 2" %>   
+        </div>
+
+        <div>
+          <%= image_tag "day3.png", :alt => "day 3" %>   
+        </div>
+
+        <div>
+          <p>to be continued...</p> 
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-<!-- JQUERY SCROLLABLE !-->
+  <div id= "rolo">
+    <%= image_tag "rolo.png", :alt => "rolo papel manteiga" %>
 
-<a class="prev">
-  <%= image_tag "arrowleft.png", :alt => "left" %></a>
-
-<a class="next">
-  <%= image_tag "arrowright.png", :alt => "right" %></a>
-
-<div class="scrollable">   
-	<div class="items">
+    <div class="controls">
+      <a href="#" class="next">
+        <%= image_tag "arrowleft.png", :alt => "left" %></a>
   
-		<div>
-      <%= image_tag "day0.png", :alt => "day 0" %> 
-    </div>
-      
-    <div>
-   	  <%= image_tag "day1.png", :alt => "day 1" %>   
+      <a href="#" class="home">
+        <%= image_tag "home.png", :alt => "home" %></a>
+
+      <a href="#" class="prev">
+        <%= image_tag "arrowright.png", :alt => "right" %></a>
     </div>
 
-    <div>
-      <%= image_tag "day2.png", :alt => "day 2" %>   
-    </div>
-
-    <div>
-      <%= image_tag "day3.png", :alt => "day 3" %>   
-    </div>
-
-    <div>
-      <p>...</p> 
+    <div id="by">
+      website by <%= link_to "http://www.facebook.com/marcos.korody", :target => "_blank", do %>mk 
+      <% end %>
+      &amp;
+      <%= link_to "http://www.facebook.com/mohamado", :target => "_blank", do %>mh
+      <% end %>
     </div>
 
   </div>
-</div>
 
-</div>
-
-<%= link_to "http://www.facebook.com/kaju.ink", :target => "_blank", do %>
-  <%= image_tag "fb.png", :alt => "kaju ink", :id => "fb" %>
-<% end %>
-
-<div id= "fblike">
-  <div class="fb-like" data-href="http://www.facebook.com/kaju.ink" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="lucida grande"></div>
-</div>
-
-<%= link_to "http://www.wix.com/kcjuzwiak/art", :target => "_blank", do %>
-  <%= image_tag "ki.png", :alt => "kaju ink", :id => "ki" %>
-<% end %>
-
-<div id="by">
-  website by <%= link_to "http://www.facebook.com/marcos.korody", :target => "_blank", do %>mk 
-  <% end %>
-  &amp;
-  <%= link_to "http://www.facebook.com/mohamado", :target => "_blank", do %>mh
-  <% end %>
 </div>
