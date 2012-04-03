@@ -47,7 +47,7 @@ body {
   float:right ;
   position:relative;
   bottom:0;
-  height:700px;
+  height:642px;
   width:137px;
   }
 
@@ -61,7 +61,7 @@ body {
 
 .controls {
   position:absolute;
-  bottom:340px;
+  bottom:290px;
   right:0;
   width:137px;
   height:40px;
@@ -70,20 +70,18 @@ body {
 .next {
   position:absolute;
   right:95px;
-  bottom:20%;
   }
 
   .home {
   position:absolute;
   visibility:hidden;
   right:55px;
-  bottom:45%;
+  top:25%;
   }
 
    .prev {
   position:absolute;
   right:15px;
-  bottom:20%;
   }
 
 
@@ -123,7 +121,7 @@ body {
   }
 
 #by {
-  position:relative;
-  top:5px;
-  left:15px;
+  position:absolute;
+  top:50.5em;
+  right:10px;
   }
