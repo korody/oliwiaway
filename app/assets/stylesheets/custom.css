@@ -1,7 +1,7 @@
 body {
   background-color:white;
   overflow-x:hidden;
-  overflow-y:hidden;
+  overflow-y:normal;
   }
 
 * {
@@ -67,7 +67,7 @@ body {
   height:40px;
   }
   
-.next {
+.prev {
   position:absolute;
   right:95px;
   }
@@ -86,7 +86,7 @@ body {
   top:25%;
   }
 
-   .prev {
+   .next {
   position:absolute;
   right:15px;
   }

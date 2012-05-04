@@ -2,7 +2,7 @@ $(function() {
 				$(".scrollable").scrollable({ mousewheel: true });
 
 				$('.play').click(function() {
-					$(".scrollable").scrollable().end(15000);
+					$(".scrollable").scrollable().end(40000);
 				});
 
 				$('.controls a').click(function() {
