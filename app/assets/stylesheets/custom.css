@@ -69,13 +69,13 @@ body {
   
   .next {
   position:absolute;
-  right:38px;
+  right:40px;
   }
 
   .fast {
   position:absolute;
   visibility:hidden;
-  right:5px;
+  right:10px;
   top:25%;
   }
 
@@ -95,7 +95,7 @@ body {
 
    .prev {
   position:absolute;
-  right:68px;
+  right:70px;
   }
 
 
