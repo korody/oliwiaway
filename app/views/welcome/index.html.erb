@@ -156,16 +156,19 @@
 
   <div class="controls">
     <a href="#" class="prev">
-      <%= image_tag "arrowleft.png", :alt => "next" %></a>
+      <%= image_tag "arrowleft.png", :alt => "previous", title: "previous day" %></a>
+
+    <a href="#" class="fast">
+      <%= image_tag "play.png", :alt => "fast", title: "fast forward to last day" %></a>
 
     <a href="#" class="home">
-      <%= image_tag "home.png", :alt => "home" %></a>
+      <%= image_tag "home.png", :alt => "home", title: "back to the first day" %></a>
 
       <a href="#" class="play">
-      <%= image_tag "play.png", :alt => "last day" %></a>
+      <%= image_tag "play.png", :alt => "last day", title: "play all days" %></a>
 
     <a href="#" class="next">
-      <%= image_tag "arrowright.png", :alt => "previous" %></a>
+      <%= image_tag "arrowright.png", :alt => "next", title: "next day" %></a>
   </div>
   <div id="by">
     website by <%= link_to "http://www.facebook.com/marcos.korody", :target => "_blank" do %>mk 

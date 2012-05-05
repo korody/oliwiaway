@@ -67,28 +67,35 @@ body {
   height:40px;
   }
   
-.prev {
+  .next {
   position:absolute;
-  right:95px;
+  right:38px;
+  }
+
+  .fast {
+  position:absolute;
+  visibility:hidden;
+  right:5px;
+  top:25%;
   }
 
   .home {
   position:absolute;
   visibility:hidden;
-  right:55px;
+  right:105px;
   top:25%;
   }
 
   .play {
   position:absolute;
-  visibility: visible;
-  right:55px;
+  visibility:visible;
+  right:60px;
   top:25%;
   }
 
-   .next {
+   .prev {
   position:absolute;
-  right:15px;
+  right:68px;
   }
 
 
