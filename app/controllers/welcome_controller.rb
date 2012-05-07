@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
   def index
-  	@title = "oliwia way project"
+  	@title = "by kaju.ink"
   end
 
 end

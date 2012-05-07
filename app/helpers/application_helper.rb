@@ -1,10 +1,11 @@
 module ApplicationHelper
 
 	def title
-    base_title = "welcome to my dream world!"
-    if @title.nil?
-      base_title
-    else      "#{base_title}"
-    end
-  end
+    	base_title = "oliwia way project"
+    	if @title.nil?
+      		base_title
+    	else      
+    		"#{base_title} | #{@title}"
+    	end
+  	end
 end
