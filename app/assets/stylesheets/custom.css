@@ -8,6 +8,9 @@ body {
   margin: 0px;
   }
 
+/* Remove annoying border on linked images. */
+a img { border: none; }
+
 .wrapper {
   background-color:transparent;
   position:relative;
