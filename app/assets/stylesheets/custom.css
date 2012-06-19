@@ -113,7 +113,7 @@ a img { border: none; }
   }
 
 .items {
-  width:2000em;
+  width:2500em;
   position:absolute;
   }
 
@@ -130,6 +130,7 @@ a img { border: none; }
   font-size:3.0em;
   position:relative;
   }
+  
   /* First slide: requires transparency; */
 
 .items div.ghost {
